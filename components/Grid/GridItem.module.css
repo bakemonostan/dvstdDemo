@@ -1,0 +1,51 @@
+
+.card{
+  flex: 0 0 45%;
+}
+.card figcaption {
+  background: white;
+  padding: 1.5rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.image img {
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+
+.image img:hover {
+  transition: all 0.5s;
+  filter: none;
+}
+
+
+.title{
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+}
+
+.location{
+text-transform: capitalize;
+color: gray;
+font-weight: 300;
+}
+
+.image h3,
+.image h5 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.image h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 3rem;
+}
+
+
+

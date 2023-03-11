@@ -1,0 +1,91 @@
+.card {
+  color: hsl(27, 14%, 38%);
+  box-shadow: 0px 4px 5px -1px hsla(0, 0%, 67%, 0.75);
+  -webkit-box-shadow: 0px 4px 5px -1px hsla(0, 0%, 67%, 0.75);
+  -moz-box-shadow: 0px 4px 5px -1px hsla(0, 0%, 67%, 0.75);
+  border-radius: 3px;
+}
+
+.card:hover {
+  box-shadow: 2px 6px 5px -1px hsla(0, 0%, 67%, 0.75);
+  -webkit-box-shadow: 2px 6px 5px -1px hsla(0, 0%, 67%, 0.75);
+  -moz-box-shadow: 2px 6px 5px -1px hsla(0, 0%, 67%, 0.75);
+}
+
+.card_info {
+  padding: 1rem;
+}
+.card_info h3,
+.card_info p {
+  padding: 0 0 0.5rem;
+}
+
+.card_info button {
+  padding: 0.5rem 0.8rem;
+  width: 100px;
+  border: 1px solid gray;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  color: hsl(27, 14%, 38%);
+  transition: all 0.7s;
+}
+
+.card_info button:hover {
+  background: #ffc900;
+  font-weight: bold;
+  transition: all 0.7s;
+}
+
+.card_image img {
+  transition: all 0.5s;
+}
+
+.card_image img:hover {
+  filter: none;
+  transition: all 0.5s;
+}
+
+.aboutCard {
+  flex: 0 0 270px;
+  font-family: Montserrat, -apple-system, Helvetica Neue, sans-serif;
+}
+
+.aboutCard_info {
+  margin-top: 0.3rem;
+  letter-spacing: 0.8px;
+}
+
+.aboutCard_info p {
+  font-size: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.bold {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.bold p {
+  display: inline;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: Montserrat, -apple-system, Helvetica Neue, sans-serif;
+}
+.bold span {
+  font-size: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.position p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-family: Montserrat, -apple-system, Helvetica Neue, sans-serif;
+}
+
+@media (min-width: 765px) {
+  .aboutCard_info p {
+  }
+}

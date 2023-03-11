@@ -1,0 +1,49 @@
+.container {
+  padding: 3rem 0 2rem;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.cta {
+  background: hsl(28, 12%, 79%);
+  text-transform: none;
+  padding: 2.5rem;
+  margin-top: -10px;
+}
+
+.cta h3 {
+  font-weight: lighter;
+  font-size: 2rem;
+  word-spacing: 5px;
+  color: hsl(28, 12%, 30%);
+  padding-bottom: 2rem;
+}
+
+.contact {
+  color: hsl(28, 12%, 40%);
+  padding-bottom: 2rem;
+}
+
+.btn {
+  color: hsl(28, 12%, 30%);
+  border: 1px solid hsl(28, 12%, 30%);
+  background: transparent;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 795px) {
+  .container {
+    padding: 3rem 0 10rem;
+  }
+  .cta {
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: 5px solid yellow;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 65%;
+  }
+}

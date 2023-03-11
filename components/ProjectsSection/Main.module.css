@@ -1,0 +1,99 @@
+.main {
+  background-color: #f0edeb;
+  padding: 2rem 0;
+}
+
+.main h2 {
+  padding: 2rem 1rem;
+  font-weight: lighter;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  color: #b6b4b3;
+}
+.container {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 50%);
+  width: 250px;
+  padding: 0.8rem;
+  margin-left: 1rem;
+}
+
+.select:hover {
+  background: #4BE5F1;
+  cursor: pointer;
+}
+
+.select svg {
+  font-size: 1.4rem;
+}
+
+.select_dropdown {
+  position: absolute;
+  background: #4BE5F1;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1.5rem 0 2rem;
+  opacity: 0;
+  transition: all 0.4s;
+
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(-50px);
+  transition: all 0.4s;
+  z-index: 100;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  padding: 0 2rem;
+  font-size: 1.8rem;
+}
+.close svg {
+  cursor: pointer;
+}
+
+.project_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.project {
+  text-align: center;
+  padding: 1rem;
+  flex: 0 0 30%;
+  cursor: pointer;
+}
+
+.project p {
+  font-weight: bold;
+  color: #36003C;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+
+.card_section {
+  margin-top: 5rem;
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}

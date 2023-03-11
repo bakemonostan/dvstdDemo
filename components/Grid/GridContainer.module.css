@@ -1,0 +1,34 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.about_info {
+  width: 300px;
+  padding: 3rem 0;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 5rem 2rem;
+  gap: 2rem;
+}
+
+
+
+@media (min-width: 51.875em) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about_info {
+    width: 500px;
+    padding: 5rem 0;
+  }
+}

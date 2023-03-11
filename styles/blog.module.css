@@ -1,0 +1,20 @@
+.blog {
+  background: #f0edeb;
+  padding-bottom: 8rem;
+}
+
+.intro {
+  background: #f0edeb;
+  text-align: center;
+  padding: 3rem 4rem;
+}
+
+.blog_container {
+  padding: 5rem 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,126 @@
+.backdrop {
+  position: fixed;
+  height: 100%;
+  width: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  z-index: 15;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 40%;
+}
+
+.close {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.split {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  gap: 1.8rem;
+  width: 300px;
+  background: #6b7480;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 210px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  background: none;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-family: Montserrat, -apple-system, Helvetica Neue, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.book {
+  position: fixed;
+  z-index: 20;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 20%;
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #6b7480;
+  padding: 2rem 1rem;
+  font-family: Montserrat, -apple-system, Helvetica Neue, sans-serif;
+  color: white;
+  font-size: 0.87rem;
+  border-radius: 10px;
+}
+
+.name,
+.date {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.name label {
+  margin-top: 1rem;
+}
+
+.name label,
+.date label {
+  margin-bottom: 0.5rem;
+}
+
+.name input,
+.date input {
+  padding: 0.6rem;
+  border-radius: 3px;
+  border: #6b7480;
+  background-color: #868f99;
+}
+
+.name input::placeholder,
+.date input::placeholder {
+  color: white;
+  opacity: 0.7; /* Firefox */
+}
+
+.date input[type="date" i] {
+  color: white;
+  opacity: 0.7; /* Firefox */
+  width: 200px;
+}
+
+.submit {
+  width: 150px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: transparent;
+  border: #6b7480;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .book {
+    width: 450px;
+  }
+}

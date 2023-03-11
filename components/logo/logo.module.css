@@ -1,0 +1,18 @@
+.logo img {
+  mix-blend-mode: multiply;
+}
+
+.aboutLogo {
+  margin-bottom: 0.3rem;
+}
+
+.logo,
+.aboutLogo {
+  width: 136px;
+}
+
+@media (min-width: 700px) {
+  .logo {
+    width: auto;
+  }
+}
