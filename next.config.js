@@ -4,7 +4,11 @@ const nextConfig = {
   swcMinify: true,
   images: {
     disableStaticImages: false,
-    domains: ["images.ctfassets.net", "static.mydomain.com"],
+    domains: [
+      "images.ctfassets.net",
+      "downloads.ctfassets.net",
+      "static.mydomain.com",
+    ],
   },
 };
 module.exports = nextConfig;
