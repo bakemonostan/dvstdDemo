@@ -11,7 +11,7 @@ const Light = () => {
                     src='/static/newLogoWhite.png'
                     alt='Dove studio logo'
                     className={styles.aboutLogo}
-                    width={130}
+                    width={135}
                     height={53}
                     objectFit='cover'
                     priority

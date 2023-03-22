@@ -33,6 +33,7 @@ export default function Home({ data }) {
           </Head>
 
           <section className={styles.grid}>
+
             <div className={styles.head}>
               <p>
                 We are forward-thinking leaders in architecture and interior
@@ -86,3 +87,4 @@ export async function getStaticProps() {
     revalidate: 3,
   };
 }
+

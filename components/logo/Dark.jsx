@@ -6,12 +6,12 @@ const Dark = () => {
     return (
         <div className={styles.logo}>
             <Link href='/'>
-                <Image src='/static/dvstd-logo.webp'
+                <Image src='/static/newLogoBlack.png'
                     alt='Dove studio logo'
                     className={styles.logo}
-                    width={130}
+                    width={135}
                     height={53}
-                    objectFit='contain'
+                    objectFit='cover'
                     priority
                 />
             </Link>

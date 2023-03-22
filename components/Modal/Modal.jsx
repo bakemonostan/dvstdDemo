@@ -5,10 +5,6 @@ import Book from './Book';
 import { useState } from 'react'
 
 
-
-
-
-
 const Modal = ({ setModal }) => {
     const [appointment, setAppointment] = useState(false)
 
@@ -22,6 +18,11 @@ const Modal = ({ setModal }) => {
         setAppointment(false)
     }
 
+    const handleComposeEmail = () => {
+        const defaultEmail = "dovestudio@reftek.co";
+        window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=${defaultEmail}`, '_blank');
+    };
+
     return (
         <>
             <div className={styles.backdrop} onClick={hideModal}></div>
@@ -29,6 +30,7 @@ const Modal = ({ setModal }) => {
                 <div className={styles.split}>
                     <MdClear className={styles.close} onClick={hideModal} />
                     <motion.button className={styles.btn}
+                        onClick={handleComposeEmail}
                         whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
                         Contact an Architect
                     </motion.button>
