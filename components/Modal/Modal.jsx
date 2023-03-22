@@ -19,8 +19,9 @@ const Modal = ({ setModal }) => {
     }
 
     const handleComposeEmail = () => {
+        // window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=${defaultEmail}`, '_blank');
         const defaultEmail = "dovestudio@reftek.co";
-        window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=${defaultEmail}`, '_blank');
+        window.location.href = `mailto:${defaultEmail}`
     };
 
     return (
