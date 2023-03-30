@@ -90,6 +90,12 @@
 }
 
 @media (min-width: 700px) {
+  .nav_container,
+  .nav_container2,
+  .nav_containerBlog {
+    padding-top: 1rem;
+  }
+
   .nav {
     padding-inline: 2.5rem;
     padding-bottom: 1rem;
