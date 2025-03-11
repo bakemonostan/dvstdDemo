@@ -2,17 +2,16 @@ import Head from "next/head";
 import { Card } from "../../components";
 import styles from "../../styles/blog.module.css";
 import { createClient } from "contentful";
-import { motion, useAnimation } from "framer-motion";
-
 const Blog = ({ data: blogs }) => {
-  const controls = useAnimation();
-
   if (blogs.length === 0) {
     return (
       <main className={styles.blog}>
         <Head>
           <title>Blogs</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link
+            rel="icon"
+            href="/favicon.ico"
+          />
         </Head>
         <section className={styles.intro}></section>
         <section className={styles.blog_container}>
@@ -25,7 +24,10 @@ const Blog = ({ data: blogs }) => {
     <main className={styles.blog}>
       <Head>
         <title>Blogs</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="/favicon.ico"
+        />
       </Head>
       <section className={styles.intro}></section>
       <section className={styles.blog_container}>

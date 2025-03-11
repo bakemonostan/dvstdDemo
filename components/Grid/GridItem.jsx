@@ -23,8 +23,6 @@ const GridItem = ({ featured, index }) => {
           width={300}
           height={300}
           alt='test image'
-          layout='responsive'
-          objectFit='cover'
           placeholder='blur'
           blurDataURL="/static/dove_black_sm.webp"
         />

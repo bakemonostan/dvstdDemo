@@ -4,8 +4,6 @@ import { GridContainer, Video } from "../components";
 import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from "framer-motion";
-import { useRouter } from "next/router.js";
-import Modal from "../components/Modal/Modal";
 
 const DynamicVid = dynamic(
   () => import("../components/VideoComponent/Video.jsx"),
@@ -20,7 +18,6 @@ const DynamicImg = dynamic(() => import("next/image"), {
 export default function Home({ data }) {
   return (
     <AnimatePresence>
-      {/* <Modal/> */}
       <motion.main>
         <section className={styles.container}>
           <Head>
@@ -57,7 +54,6 @@ export default function Home({ data }) {
                 width={1000}
                 height={1000}
                 alt="hero-image"
-                layout="responsive"
                 priority
               />
             </div>

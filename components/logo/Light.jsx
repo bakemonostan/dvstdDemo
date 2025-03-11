@@ -4,8 +4,7 @@ import Link from "next/link"
 
 const Light = () => {
     return (
-
-        <div className={styles.aboutLogo}>
+        <span className={styles.aboutLogo}>
             <Link href='/'>
                 <Image
                     src='/static/newLogoWhite.png'
@@ -13,11 +12,10 @@ const Light = () => {
                     className={styles.aboutLogo}
                     width={135}
                     height={53}
-                    objectFit='cover'
                     priority
                 />
             </Link>
-        </div>
+        </span>
     )
 }
 export default Light

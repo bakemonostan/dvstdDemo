@@ -34,8 +34,6 @@ const SectionOne = ({ project }) => {
                     alt="test image"
                     width={1440}
                     height={850}
-                    layout="responsive"
-                    objectFit="cover"
                   />
                 </SwiperSlide>
               );

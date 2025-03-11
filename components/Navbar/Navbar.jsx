@@ -37,9 +37,9 @@ const Navbar = () => {
 
       {modal && <Modal modal={modal} setModal={setModal} />}
       <div className={styles.nav}>
-        <Link href='/'>
+        <div>
           {asPath === '/contact' ? <Light /> : <Dark />}
-        </Link>
+        </div>
         <div>
           <ul className={styles.nav_links}>
             <li className={styles.nav_link}>

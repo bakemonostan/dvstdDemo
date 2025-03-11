@@ -4,18 +4,17 @@ import Link from "next/link"
 
 const Dark = () => {
     return (
-        <div className={styles.logo}>
+        <span className={styles.logo}>
             <Link href='/'>
                 <Image src='/static/newLogoBlack.png'
                     alt='Dove studio logo'
                     className={styles.logo}
                     width={135}
                     height={53}
-                    objectFit='cover'
                     priority
                 />
             </Link>
-        </div>
+        </span>
     )
 }
 export default Dark

@@ -34,8 +34,6 @@ const ProjectCard = ({ projects }) => {
                 alt='test image'
                 width={1440}
                 height={850}
-                layout='responsive'
-                objectFit='cover'
                 priority
               />
             </SwiperSlide>

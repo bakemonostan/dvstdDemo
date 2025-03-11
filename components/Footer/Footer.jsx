@@ -21,7 +21,7 @@ const Footer = () => {
         <div className={styles.footer_contact}>
           <h4>Contact Us</h4>
           <div className={styles.flex}>
-            <p>No 2c Obasa Road, <br /> Off Oba Akran, Ikeja, <br />Lagos</p>
+            <p>Lemesjö 23, <br /> Oskarhamn, <br /> Sweden</p>
             <p>dovestudio@reftek.co</p>
           </div>
         </div>
